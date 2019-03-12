@@ -11,5 +11,6 @@ public class MyBindingInitializer implements WebBindingInitializer{
   public void initBinder(WebDataBinder binder, WebRequest request) {
 	  binder.registerCustomEditor(User.class, new UserEditor());
 	  System.out.println();
+	  System.out.println();
    }
 }
